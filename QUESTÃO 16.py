@@ -5,11 +5,11 @@ valor = input("Digite algo: ")
 # Mostra o tipo original
 print("Tipo original:", type(valor))
 
-try:
+if:
     numero = float(valor)  # tenta converter para número
     print("É numérico!")
     print("Quadrado:", numero ** 2)
-except:
+else:
     print("Não é um valor numérico.")
 
 
